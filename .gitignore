@@ -1,7 +1,13 @@
 #
 # Ignore all files for now, except those specified. AKA .gitdontignore
 
-*
+# Ignore everything.
+/*
+
+# But not these files.
 !.gitignore
 !.vimrc
+
+# Or these directories.
+!.vim/
 

@@ -3,6 +3,8 @@ execute pathogen#infect()
 
 syntax on                 " Enable syntax processing.
 
+colorscheme solarized     " ...
+
 filetype plugin indent on " Filetype detection and indent detection.
 
 let mapleader=","         " Leader == , 
@@ -24,7 +26,7 @@ set hlsearch              " Highlight search matches.
 set autoread              " Don't prompt to reload a file changed outside of Vim. Just do eet.
 
 
-" Auto reload on changes to .vimrc on save!
+" Auto reload on changes to .vimrc!
 augroup reload_vimrc
     autocmd!
     autocmd BufWritePost $MYVIMRC source $MYVIMRC
