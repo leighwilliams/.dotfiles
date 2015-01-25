@@ -1,0 +1,7 @@
+#
+# Ignore all files for now, except those specified. AKA .gitdontignore
+
+*
+!.gitignore
+!.vimrc
+
