@@ -1,0 +1,9 @@
+# Global git config.
+
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+[user]
+	name = Leigh Williams
+	email = leighwilliams@fastmail.fm

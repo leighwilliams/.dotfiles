@@ -9,6 +9,8 @@ filetype plugin indent on " Filetype detection and indent detection.
 
 let mapleader=","         " Leader == , 
 
+set backspace=indent,eol,start
+
 set expandtab             " Tabs == spaces.
 set number                " Enable line numbers.
 set tabstop=4             " Spaces per tab.

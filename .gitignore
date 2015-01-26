@@ -2,9 +2,11 @@
 # Ignore all files for now, except those specified. AKA .gitdontignore
 
 # Ignore everything.
+*.DS_Store
 /*
 
 # But not these files.
+!.gitconfig
 !.gitignore
 !.vimrc
 
