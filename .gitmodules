@@ -4,3 +4,6 @@
 [submodule ".vim/bundle/yajs.vim"]
 	path = .vim/bundle/yajs.vim
 	url = https://github.com/othree/yajs.vim.git
+[submodule ".antigen/antigen"]
+	path = .antigen/antigen
+	url = https://github.com/zsh-users/antigen.git
