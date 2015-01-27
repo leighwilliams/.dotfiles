@@ -8,3 +8,5 @@
 [user]
 	name = Leigh Williams
 	email = leighwilliams@fastmail.fm
+[credential]
+	helper = osxkeychain
