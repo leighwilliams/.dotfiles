@@ -9,6 +9,7 @@
 !.gitconfig
 !.gitignore
 !.vimrc
+!.zshrc
 
 # Or these directories.
 !.vim/
