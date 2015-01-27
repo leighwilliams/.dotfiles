@@ -10,6 +10,8 @@
 !.gitignore
 !.vimrc
 !.zshrc
+!.nvim
+!.nvimrc
 
 # Or these directories.
 !.vim/
