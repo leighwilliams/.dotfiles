@@ -4,6 +4,7 @@
 	ci = commit
 	st = status
 	co = checkout
+	pom = pull origin master
 [user]
 	name = Leigh Williams
 	email = leighwilliams@fastmail.fm
