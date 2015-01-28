@@ -11,5 +11,5 @@
 [credential]
 	helper = osxkeychain
 [color]
-	diff = auto
-	status = auto
+    ui = auto
+

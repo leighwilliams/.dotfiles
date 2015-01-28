@@ -27,6 +27,8 @@ set hlsearch              " Highlight search matches.
 
 set autoread              " Don't prompt to reload a file changed outside of Vim. Just do eet.
 
+" Emmet, tab to expand.
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " Auto reload on changes to .vimrc!
 augroup reload_vimrc
