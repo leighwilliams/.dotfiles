@@ -10,3 +10,6 @@
 	email = leighwilliams@fastmail.fm
 [credential]
 	helper = osxkeychain
+[color]
+	diff = auto
+	status = auto

@@ -11,3 +11,6 @@
 	path = .vim/bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive.git
 
+[submodule ".vim/bundle/emmet-vim"]
+	path = .vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
