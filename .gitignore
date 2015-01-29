@@ -1,8 +1,11 @@
 #
 # Ignore all files for now, except those specified. AKA .gitdontignore
 
-# Ignore everything.
+# Ignore specifics.
 *.DS_Store
+.antigen/repos/
+
+# Ignore directories.
 /*
 
 # But not these files.
@@ -15,5 +18,5 @@
 
 # Or these directories.
 !.vim/
-!.antigen/
+!.antigen
 
