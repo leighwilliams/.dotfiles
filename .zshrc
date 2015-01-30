@@ -6,6 +6,8 @@ antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle sindresorhus/pure
 antigen apply
 
+export EDITOR=vim
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=10000
