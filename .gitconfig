@@ -5,6 +5,7 @@
 	st = status
 	co = checkout
 	pom = push origin master
+    aa = add --all
 [user]
 	name = Leigh Williams
 	email = leighwilliams@fastmail.fm
@@ -12,6 +13,5 @@
 	helper = osxkeychain
 [color]
     ui = auto
-
 [push]
 	default = simple
