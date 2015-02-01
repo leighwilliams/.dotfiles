@@ -27,6 +27,9 @@ set hlsearch              " Highlight search matches.
 
 set autoread              " Don't prompt to reload a file changed outside of Vim. Just do eet.
 
+" Emmet, HTML and CSS files only.
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
 " Emmet, tab to expand.
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
