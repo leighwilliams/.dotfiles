@@ -26,3 +26,30 @@
 [submodule ".vim/bundle/delimitMate"]
 	path = .vim/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate
+[submodule ".vim/bundle/unite.vim"]
+	path = .vim/bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim
+[submodule ".vim/bundle/vimproc.vim"]
+	path = .vim/bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim
+[submodule ".vim/bundle/vim-multiple-cursors"]
+	path = .vim/bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors
+[submodule ".vim/bundle/incsearch.vim"]
+	path = .vim/bundle/incsearch.vim
+	url = https://github.com/haya14busa/incsearch.vim
+[submodule ".vim/bundle/vim-over"]
+	path = .vim/bundle/vim-over
+	url = https://github.com/osyo-manga/vim-over
+[submodule ".vim/bundle/vim-elixir"]
+	path = .vim/bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule ".vim/bundle/vim-endwise"]
+	path = .vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise
+[submodule ".vim/bundle/inori"]
+	path = .vim/bundle/inori
+	url = https://github.com/duythinht/inori
