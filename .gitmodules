@@ -53,3 +53,6 @@
 [submodule ".vim/bundle/inori"]
 	path = .vim/bundle/inori
 	url = https://github.com/duythinht/inori
+[submodule ".vim/bundle/vim-test"]
+	path = .vim/bundle/vim-test
+	url = https://github.com/janko-m/vim-test

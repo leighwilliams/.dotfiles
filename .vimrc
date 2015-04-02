@@ -46,3 +46,10 @@ nnoremap <C-F> :OverCommandLine%s/<CR>
 vnoremap <C-F> :OverCommandLine s/<CR>
 
 nnoremap <Leader>d : NERDTreeToggle<CR>
+
+" vim-test
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
