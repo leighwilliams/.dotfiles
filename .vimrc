@@ -37,7 +37,7 @@ augroup END
 
 " Ignore files listed in .gitignore when fuzzy searching
 let g:unite_source_rec_async_command = 'ag --follow --nocolor --nogroup --hidden -g ""'
-nnoremap <Leader>f :Unite file_rec/async<cr>
+nnoremap <leader>f :Unite file_rec/async<cr>
 
 noremap ; :
 noremap : ;
@@ -45,11 +45,13 @@ noremap : ;
 nnoremap <C-F> :OverCommandLine%s/<CR>
 vnoremap <C-F> :OverCommandLine s/<CR>
 
-nnoremap <Leader>d : NERDTreeToggle<CR>
+nnoremap <leader>d : NERDTreeToggle<CR>
+nnoremap <leader><leader> <c-^>
 
 " vim-test
-nmap <silent> <leader>t :TestNearest<CR>
-nmap <silent> <leader>T :TestFile<CR>
-nmap <silent> <leader>a :TestSuite<CR>
-nmap <silent> <leader>l :TestLast<CR>
-nmap <silent> <leader>g :TestVisit<CR>
+nnoremap  <leader>t :TestNearest<CR>
+nnoremap  <leader>T :TestFile<CR>
+nnoremap  <leader>a :TestSuite<CR>
+nnoremap  <leader>l :TestLast<CR>
+nnoremap  <leader>g :TestVisit<CR>
+let test#strategy = "neovim"

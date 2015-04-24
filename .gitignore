@@ -1,22 +1,3 @@
-#
-# Ignore all files for now, except those specified. AKA .gitdontignore
-
-# Ignore specifics.
 *.DS_Store
 .antigen/repos/
-
-# Ignore directories.
-/*
-
-# But not these files.
-!.gitconfig
-!.gitignore
-!.vimrc
-!.zshrc
-!.nvim
-!.nvimrc
-
-# Or these directories.
-!.vim/
-!.antigen
 
