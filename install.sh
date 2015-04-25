@@ -6,9 +6,9 @@
 
 ########## Variables
 
-dir=~/.dotfiles                                         # dotfiles directory
-olddir=~/.dotfiles_old                                  # old dotfiles backup directory
-files="antigen gitconfig nvimrc vim vimrc zshrc"    # list of files/folders to symlink in homedir
+dir=~/.dotfiles                                          # dotfiles directory
+olddir=~/.dotfiles_old                                   # old dotfiles backup directory
+files="antigen gitconfig nvim nvimrc vim vimrc zshrc"    # list of files/folders to symlink in homedir
 
 ##########
 
