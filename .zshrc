@@ -29,8 +29,13 @@ alias ..='cd ..'
 
 # Keybinds
 # UP and DOWN arrow keys.
+# OS X
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+# Linux
+zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
